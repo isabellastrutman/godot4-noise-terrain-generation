@@ -16,7 +16,7 @@ public partial class MapGenerator : TileMap
 		// A random number generator which we will use for the noise seed
 		RandomNumberGenerator rng = new();
 		// The list of tiles we want to use with the noise. Order matters !
-		List<Vector2i> tilesList = new();
+		List<Vector2I> tilesList = new();
 
 		tilesList.Add(TileDictionary.WATER);
 		tilesList.Add(TileDictionary.SAND);
@@ -40,7 +40,7 @@ public partial class MapGenerator : TileMap
 		{
 			for (int y = 0; y < height; y++)
 			{
-				float absNoise = Math.Abs(fastNoiseLite.GetNoise2d(x, y));
+				float absNoise = Math.Abs(fastNoiseLite.GetNoise2D(x, y));
 
 				int tileToPlace = (int)Math.Floor((absNoise * tilesList.Count));
 				SetCell(0, new(x, y), 0, tilesList[tileToPlace]);

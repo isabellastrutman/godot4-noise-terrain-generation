@@ -1,2 +1,2 @@
-﻿64561
-C:/dev/Godot_v4.0-beta2_mono_win64/Godot_v4.0-beta2_mono_win64.exe
+﻿58366
+C:/Users/Isabella/Documents/Godot_v4.2-stable_mono_win64/Godot_v4.2-stable_mono_win64/Godot_v4.2-stable_mono_win64.exe

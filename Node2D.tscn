@@ -23,4 +23,3 @@ format = 2
 script = ExtResource("2_4xoky")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-current = true
